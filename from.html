@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <h2>Registration Form For Newbies</h2>
+    <div class="begin">
+      <div class="form">
+        <form action="index.php" method="post" enctype="multipart/form-data">
+          <div class="form-body">
+            <div class="form-bar">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" id="fname" name="fname" />
+            </div>
+            <div class="form-bar">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" id="lname" name="lname" />
+            </div>
+            <div class="form-bar">
+              <label for="uname">UserName</label>
+              <input type="text" id="uname" name="Username" />
+            </div>
+            <div class="form-bar">
+              <label for="gender">Gender</label>
+              <div class="radio">
+                <label for="male" class="radio-inline"
+                  ><input type="radio" id="male" name="Gender" value="male" />Male</label
+                >
+                <label for="female" class="radio-inline"
+                  ><input type="radio" id="female" name="Gender" value="female"/>Female</label
+                >
+              </div>
+            </div>
+            <div class="form-bar">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="Age"/>
+            </div>
+            <div class="form-bar">
+                <label for="institution">Institution</label>
+                <Input type="text" id="inst" name="Institution"></Input>
+            </div>
+            <div class="form-bar">
+                <label for="password">Password</label>
+                <input type="password" id="pass" name="Password"/>
+            </div>
+            <div class="form-bar">
+                <label for="image">Profile Picture</label>
+                <input type="file" id="img" name="dp"/>
+            </div>
+            <div class="form-bar">
+                <label for="submit">Submit</label>
+                <input type="submit" value="Submit"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
